@@ -1,0 +1,25 @@
+{
+  "name": "vuejs-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "vue-router": "2.0.1",
+    "vuex": "2.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "0.25.0",
+    "html-webpack-plugin": "2.24.0",
+    "webpack": "1.13.2",
+    "webpack-dev-server": "1.16.2"
+  },
+  "scripts": {
+    "start": "node scripts/express.server.js",
+    "postinstall": "npm run build",
+    "dev": "node scripts/webpack.server.js",
+    "build": "webpack",
+    "test": ""
+  },
+  "author": "",
+  "license": "ISC"
+}
